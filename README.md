@@ -5,7 +5,9 @@ An **interactive fake terminal running in the browser**, built with **React + Ty
 This project is **frontend-only**, does not access the real system.
 
 
-<img source="src/assets/screenshot.png" align="center">
+<div align="center">
+  <img source="src/assets/screenshot.png" align="center">
+</div>
 
 
 ## ✨ Features
