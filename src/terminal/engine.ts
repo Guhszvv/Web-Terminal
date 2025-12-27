@@ -58,11 +58,12 @@ export function execute(command: string): string {
 
         if (dir.type !== "dir") return "";
 
-        const file = dir.children.find(
-          c => c.type === "file" && c.name === name
-        );
+        const node = dir.children.find(c => c.name === name);
 
-        return file ? file.content : "File not found";
+        if (!node) return "File not found";
+        if (node.type !== "file") return "Not a file";
+
+        return node.content;
       }
 
       case "pwd":

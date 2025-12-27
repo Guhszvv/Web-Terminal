@@ -62,7 +62,7 @@ const styles = {
     fontFamily: "monospace",
     width: "100vw",
     height: "100vh",
-    boxSizing: "border-box",
+    boxSizing: "border-box" as const,
     },
   input: {
     background: "transparent",
