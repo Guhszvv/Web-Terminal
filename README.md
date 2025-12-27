@@ -4,11 +4,7 @@ An **interactive fake terminal running in the browser**, built with **React + Ty
 
 This project is **frontend-only**, does not access the real system.
 
-
-<div align="center">
-  <img source="src/assets/screenshot.png" align="center">
-</div>
-
+![Web Terminal Screenshot](src/assets/screenshot.png)
 
 ## ✨ Features
 
